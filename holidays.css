@@ -1,0 +1,40 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+body {
+    background-color: rgb(113, 195, 204);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-indent: 30px;
+}
+p {
+    text-indent: 60px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(98, 173, 182);
+    z-index: -1;
+    background-image: url(https://i.ibb.co/hfbdT1t/Haloea.jpg)
+}
+div:hover {
+    animation-name: holidays;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes holidays {
+    from {width: 100px; height: 100px;}
+    to {width: 240px; height: 200px;}
+}
